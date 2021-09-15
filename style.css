@@ -1,0 +1,255 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+
+/*===>>> header section start <<<===*/
+header{
+    background-color: #000;
+    padding: 5px 0;
+    margin-bottom: 35px;
+}
+.header_inner{
+    width: 1050px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.header_inner .header_logo{
+    width: 80px;
+}
+.header_inner .header_menu ul{
+    list-style: none;
+    display: flex;
+}
+.header_inner .header_menu ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    position: relative
+}
+.header_inner .header_menu ul li a::before{
+    content: "";
+    height: 1px;
+    width: 80%;
+    position: absolute;
+    top: 125%;
+    left: 7px;
+    background-color: white;
+}
+/*===>>> header section end <<<===*/
+
+/*===>>> contentsection start <<<===*/
+.content{
+    margin-bottom: 20px;
+}
+.content .inner_content{
+    display: flex;
+}
+.content .inner_content .left_content{
+    flex-basis: 78%;
+    margin-top: 30px;
+}
+.content .inner_content .right_content{
+    flex-basis: 22%;
+    background-color: #ddd;
+    border-left: 2px solid red;
+}
+.content .inner_content .right_content .right_content_inner{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+.row_1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.row_1_item{
+    border: 1px solid green;
+    width: 28%;
+}
+.row_1_item_left{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 180px;
+}
+.row_1_item_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+.row_1_item_right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height: 180px;
+}
+span{
+    /* display: inline-block; */
+    background-color: red;
+    color: white;
+    padding: 10px 2px;
+}
+
+/* row 2 */
+.row_2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.row_2_item{
+    border: 1px solid green;
+    width: 28%;
+    height: 150px;
+}
+.row_2_left{
+    flex-basis: 22%;
+}
+.row_2_center{
+    flex-basis: 40%;
+}
+.row_2_right{
+    flex-basis: 22%;
+}
+.row_2_item_left{
+    padding: 15px;
+}
+
+
+/* row 3 */
+.row_3{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.row_3_item_1{
+    flex-basis: 22.5%;
+    border: 1px solid green;
+    padding: 20px;
+}
+.row_3_item_2{
+    flex-basis: 27%;
+    border: 1px solid green;
+    padding: 20px;
+}
+.row_3_item_3{
+    flex-basis: 22.5%;
+    border: 1px solid green;
+    padding: 20px;
+}
+.row_3_item_left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.row_3 .row_3_item_1 .row_3_item_left div{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: 1px solid green;
+
+}
+
+.row_3_item_center{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    align-content: start;
+}
+.row_3_item_center div{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    border: 1px solid green;
+}
+
+
+/* .row_3_item{
+    padding: 20px;
+} */
+.row_3_1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.row_3_2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row_3_3{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.row_3_1_i {
+	background-color: red;
+	color: white;
+	border: 1px solid green;
+	height: 29px;
+	width: 64px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.row_3_2_i {
+	background-color: red;
+	color: white;
+	border: 1px solid green;
+	height: 29px;
+	width: 64px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.row_3_3_i {
+	background-color: red;
+	color: white;
+	border: 1px solid green;
+	height: 29px;
+	width: 64px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+/*===>>> content section end <<<===*/
+
+/*===>>> footer section styart <<<===*/
+footer{
+    background-color: black;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    height: 60px;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    position: relative;
+}
+footer ul li a::after{
+    content: "";
+    height: 1px;
+    width: 80%;
+    position: absolute;
+    top: 120%;
+    left: 8px;
+    background-color: white;
+}
+/*===>>> footer section end <<<===*/
